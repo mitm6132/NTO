@@ -35,13 +35,13 @@ navigate_wait(x=3, y=2, z=1, speed=0.5, frame_id='aruco_map')
 rospy.sleep(3)
 
 
-navigate_wait(x=3, y=4, z=1, speed=0.5, frame_id='aruco_map')
+navigate_wait(x=3, y=3, z=1, speed=0.5, frame_id='aruco_map')
 rospy.sleep(10)
 
-navigate_wait(x=0, y=4, z=1, speed=0.5, frame_id='aruco_map')
+navigate_wait(x=0, y=3, z=1, speed=0.5, frame_id='aruco_map')
 rospy.sleep(3)
 
-navigate_wait(x=5, y=4, z=1, speed=0.2, frame_id='aruco_map')
+navigate_wait(x=5, y=3, z=1, speed=0.2, frame_id='aruco_map')
 rospy.sleep(10)
 
 navigate_wait(x=0, y=0, z=1, speed=0.5, frame_id='aruco_map')
