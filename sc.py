@@ -31,6 +31,12 @@ rospy.sleep(3)
 navignavigate_waitate(x=3, y=4, z=1, speed=0.5, frame_id='aruco_map', auto_arm=False)
 rospy.sleep(10)
 
+navignavigate_waitate(x=0, y=4, z=1, speed=0.5, frame_id='aruco_map', auto_arm=False)
+rospy.sleep(3)
+
+navignavigate_waitate(x=5, y=4, z=1, speed=0.2, frame_id='aruco_map', auto_arm=False)
+rospy.sleep(10)
+
 navnavigate_waitgate(x=0, y=0, z=1, speed=0.5, frame_id='aruco_map', auto_arm=False)
 rospy.sleep(3)
 
