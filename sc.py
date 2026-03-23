@@ -28,23 +28,23 @@ def navigate_wait(x=0, y=0, z=0, yaw=float('nan'), speed=0.5, frame_id='', auto_
         rospy.sleep(0.2)
 
 
-navigate_wait(x=0, y=0, z=1, speed=0.5, frame_id='body', auto_arm=False)
+navigate_wait(x=0, y=0, z=1, speed=0.5, frame_id='body', auto_arm=True)
 rospy.sleep(1)
 
-navigate_wait(x=3, y=2, z=1, speed=0.5, frame_id='aruco_map', auto_arm=False)
+navigate_wait(x=3, y=2, z=1, speed=0.5, frame_id='aruco_map')
 rospy.sleep(3)
 
 
-navigate_wait(x=3, y=4, z=1, speed=0.5, frame_id='aruco_map', auto_arm=False)
+navigate_wait(x=3, y=4, z=1, speed=0.5, frame_id='aruco_map')
 rospy.sleep(10)
 
-navigate_wait(x=0, y=4, z=1, speed=0.5, frame_id='aruco_map', auto_arm=False)
+navigate_wait(x=0, y=4, z=1, speed=0.5, frame_id='aruco_map')
 rospy.sleep(3)
 
-navigate_wait(x=5, y=4, z=1, speed=0.2, frame_id='aruco_map', auto_arm=False)
+navigate_wait(x=5, y=4, z=1, speed=0.2, frame_id='aruco_map')
 rospy.sleep(10)
 
-navigate_wait(x=0, y=0, z=1, speed=0.5, frame_id='aruco_map', auto_arm=False)
+navigate_wait(x=0, y=0, z=1, speed=0.5, frame_id='aruco_map')
 rospy.sleep(3)
 
 land()
